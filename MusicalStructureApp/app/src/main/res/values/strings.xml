@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+
+    <string name="subscription">Hit subscription button and enjoy music without limits. Listen your favourite songs and create own playlists!</string>
+
+    <string name="problem">Pro8l3m</string>
+    <string name="pentatonix">Pentatonix</string>
+    <string name="miuosh">Miuosh</string>
+    <string name="deys">Deys</string>
+</resources>
