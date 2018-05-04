@@ -12,40 +12,30 @@
             android:id="@+id/song"
             style="@style/MenuStyle"
             android:background="@color/songs"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="Songs"/>
 
         <TextView
             android:id="@+id/artist"
             style="@style/MenuStyle"
             android:background="@color/artists"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="Artists"/>
 
         <TextView
             android:id="@+id/album"
             style="@style/MenuStyle"
             android:background="@color/albums"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="Albums"/>
 
         <TextView
             style="@style/MenuStyle"
             android:id="@+id/playlist"
             android:background="@color/playlists"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="Playlists"/>
 
         <TextView
             android:id="@+id/subscription"
             style="@style/MenuStyle"
             android:background="@color/subscription"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="Subscription"/>
 
     </LinearLayout>

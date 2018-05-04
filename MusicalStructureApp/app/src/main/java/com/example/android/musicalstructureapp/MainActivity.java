@@ -1,14 +1,10 @@
 package com.example.android.musicalstructureapp;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
-
-import static com.example.android.musicalstructureapp.R.id.subscription;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView album = (TextView) findViewById(R.id.album);
 
-        artist.setOnClickListener(new View.OnClickListener() {
+        album.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent albumIntend = new Intent(MainActivity.this, AlbumActivity.class);
@@ -53,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView song = (TextView) findViewById(R.id.song);
 
-        artist.setOnClickListener(new View.OnClickListener() {
+        song.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent songIntend = new Intent(MainActivity.this, SongActivity.class);
