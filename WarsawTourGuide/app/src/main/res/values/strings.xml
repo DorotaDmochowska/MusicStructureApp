@@ -1,0 +1,259 @@
+ <resources>
+    <string name="app_name">Warsaw Tour Guide</string>
+
+    <string name="hotels">Hotels</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="museums">Museums</string>
+    <string name="attraction">Tourist attraction</string>
+    <string name="pubs">Pubs and discos</string>
+
+
+
+    <!--Hotels-->
+     <string name="hilton_hotel_name">Hilton Hotel</string>
+    <string name="hilton_hotel_info">Enjoying prime location in the centre of Warsaw,
+        Hampton by Hilton Warsaw City Centre is within a few steps of Warszawa
+        Centralna Train Station, Złote Tarasy Shopping Centre and Palace of Culture
+        and Science. It offers air conditioned accommodation with free broadband WiFi
+        and access to a modern gym.</string>
+    <string name="hilton_hotel_price">Price from 400 zł per person per night</string>
+    <string name="hilton_hotel_address">ul. Wspólna 72, Warsaw, 00687, Poland </string>
+    <string name="hilton_hotel_phone">+48 22 317 2700</string>
+    <string name="hilton_hotel_website">http://hamptoninn3.hilton.com/en/hotels/poland/hampton-by-hilton-warsaw-city-centre-WAWCTHX/index.html</string>
+
+
+     <string name="wsielka_hotel_name">Wiselka Hotel</string>
+    <string name="wiselka_hotel_info">This property is 6 minutes walk from the beach. Surrounded by greenery
+        and with a spacious garden, the Hostel Wisełka features outdoor barbecue facilities and free
+        on-site parking. Its bright rooms come with free Wi-Fi and a private bathroom.
+        Ready breakfast sets are served every morning in the hostel’s dining room. A vending machine with drinks is available.
+        All rooms at the Wisełka are decorated with wooden features and come with a working space. Each has a shower and a TV.</string>
+     <string name="wiselka_hotel_price">From 200zł per person per night</string>
+    <string name="wiselka_hotel_address">Wał Miedzeszyński 391, Praga Poludnie, 03-975 Warsaw, Poland</string>
+    <string name="wiselka_hotel_phone">+48 22 616 38 75</string>
+    <string name="wiselka_hotel_website">www.sus-noclegi.pl</string>
+
+
+     <string name="novotel_hotel_name">Novotel Hotel</string>
+    <string name="novotel_hotel_info">Offering panoramic views of Warsaw, the modern-looking Novotel
+        Warszawa Centrum is located in central Warsaw, a 5-minute walk from the Central Railway Station.
+        The hotel serves a varied breakfast. WiFi is offered throughout this 4-star hotel. All areas are non-smoking.
+        The air conditioned rooms at Novotel Warszawa Centrum come with a flat-screen TV, tea and coffee facilities,
+        and a safe. There is a minibar at a surcharge.The rooms also have a work area and armchairs or a sofa.
+        All feature a spacious bathroom with a bath or a shower and a hairdryer.</string>
+
+    <string name="novotel_hotel_price">Price from 300 zł per person per night</string>
+    <string name="novotel_hotel_address">Marszałkowska 94/98, Sródmiescie, 00-510 Warsaw, Poland</string>
+    <string name="novotel_hotel_phone">0 801 606 606</string>
+    <string name="novotel_hotel_website">https://novotel.accorhotels.com</string>
+
+     <string name="sobieski_hotel_name">Sobieski Hotel</string>
+    <string name="sobieski_hotel_info">Radisson Blu Sobieski is a luxurious, non-smoking hotel in
+        the centre of Warsaw. It offers elegant rooms, excellent cuisine and leisure facilities.
+        Free Wi-Fi is available. This 4-star property features well air-conditioned rooms with soundproofing, an LCD satellite
+        TV and a minibar. The apartments also have a living room with a sofa and a work desk. The
+        private bathroom comes with a shower or a bath.
+    </string>
+    <string name="sobieski_hotel_price">Price from 200 zł per person per night</string>
+    <string name="sobieski_hotel_address">Plac Artura Zawiszy 1, Ochota, 02-025 Warsaw, Poland</string>
+    <string name="sobieski_hotel_phone">+ 48 22 579 10 00</string>
+    <string name="sobieski_hotel_website">https://www.radissonblu.com</string>
+
+
+     <string name="cloud_hotel_name">Cloud Hotel</string>
+    <string name="cloud_hotel_info">Cloud Hostel is located in the heart of historic Praga
+        district, right next to tram turning loop that allows for a quick transport to the
+        Old Town of Warsaw. It offers modern rooms and dormitories with free Wi-Fi.
+        Every room in Cloud Hostel is painted in lively, bright colours has a shared bathroom.
+        Each dormitory room has lockers.
+    </string>
+    <string name="cloud_hotel_facilities">
+        Free parking
+        Free WiFi
+        Airport shuttle
+        Non-smoking rooms
+        24-hour front desk
+        Room service
+    </string>
+    <string name="cloud_hotel_price">Price from 100 zł per person per night</string>
+    <string name="cloud_hotel_address">ul. Otwocka 1, Praga Pólnoc, 03-759 Warsaw, Poland</string>
+    <string name="cloud_hotel_phone">+ 48 22 618 30 17</string>
+    <string name="cloud_hotel_website">https://www.cloudhostel.pl/</string>
+
+    <!-- Restaurants -->
+    <string name="platter_okrasa_name">Platter by Karol Okrasa</string>
+    <string name="platter_okrasa_info"> The original menu at Platter reflects Karol Ocrasa\'s passion
+    for creating fresh and healthy Polish cuisine, enriched with international accents.
+    All ingredients are natural, each taste is authentic and each element of the menu comes
+    straight from the heart.</string>
+    <string name="platter_okrasa_price">$$$$</string>
+    <string name="platter_okrasa_address">Emilii Platter 49, 00-125 – Warsaw</string>
+    <string name="platter_okrasa_phone">+48 22 328 8808</string>
+    <string name="platter_okrasa_website">http://platter.pl/en</string>
+
+    <string name="starydom_name">Stary Dom</string>
+    <string name="starydom_info"> Located in a building with a long history of good
+        cuisine since the 1950’s the Stary Dom Restaurant offers regional food and quite a selection of Polish spirits, vodkas and wines.</string>
+    <string name="starydom_price">$$ - $$$</string>
+    <string name="starydom_address">ul. Puławska 104 / 106, 02-620 Warsaw</string>
+    <string name="starydom_phone">+48 22 646 42 08</string>
+    <string name="starydom_website">http://www.restauracjastarydom.pl</string>
+
+    <string name="soul_name">Soul Kitchen</string>
+    <string name="soul_info">Passion and nature put together. On the plates there is no place for boredom, there is colorful and tasty but also modern.</string>
+    <string name="soul_price">$$ - $$$</string>
+    <string name="soul_address">ul. Nowogrodzka 18a, 00-511 Warszawa </string>
+    <string name="soul_phone">+48 519 020 888</string>
+    <string name="soul_website">http://www.soulkitchen.pl</string>
+
+    <string name="przyzamku_name">Restauracja Przy Zamku</string>
+    <string name="przyzamku_info">The Old Polish cuisine offers an abundance of tastes and
+        aromas, unforgettable duets of wine and food that bring out the savory sauces, herbs and spices.</string>
+    <string name="przyzamku_price">$$ - $$$</string>
+    <string name="przyzamku_address">Plac Zamkowy 15/19, Warszawa</string>
+    <string name="przyzamku_phone">+48 831 02 59</string>
+    <string name="przyzamku_website">http://www.placzamkowy.pl/en</string>
+
+    <string name="skamieniejka_name">Skamieniejka</string>
+    <string name="skamieniejka_info">Great food, friendly staff and atmosphere.</string>
+    <string name="skamieniejka_price">$</string>
+    <string name="skamieniejka_address">ul. Zabkowska 37, Warszawa 03-736, Polska</string>
+    <string name="skamieniejka_phone">+48 512 123 967</string>
+    <string name="skamieniejka_website">https://www.facebook.com/Skamiejka</string>
+
+    <!-- Museums -->
+    <string name="neon_name">Neon Muzeum</string>
+    <string name="neon_info">The Neon Muzeum is dedicated to the documentation and the preservation of Cold War era neon signs.</string>
+     <string name="neon_price">$$</string>
+    <string name="neon_address">ul. Mińska 25, Warszawa 03-808, Polska</string>
+    <string name="neon_phone">+48 665 711 635</string>
+    <string name="neon_website">http://www.neonmuzeum.org</string>
+
+    <string name="prl_name">Czar PRL - life under communism museum</string>
+    <string name="prl_info">The “Charm of the PRL” Museum allows younger generations to get
+        to know the past of their parents, while the older ones will be able to remember the brighter
+        and darker sides of the People’s Republic of Poland (PRL).</string>
+     <string name="prl_price">$$</string>
+    <string name="prl_address">ul. Mińska 22, Warszawa 03-808, Polska</string>
+    <string name="prl_phone">+48 664 828 243</string>
+    <string name="prl_website">http://czarprl.pl</string>
+
+    <string name="zacheta_name">Zachęta Gallery</string>
+    <string name="zacheta_info">The Zachęta collection consists of more than 3500 items (paintings,
+        sculptures, installations, videos, works on paper) as well as reflecting a rich history that has impacted on its diversity.</string>
+     <string name="zacheta_price">$</string>
+    <string name="zacheta_address">Pl. Malachowskiego 3, Warszawa, Polska</string>
+    <string name="zacheta_phone">+48 22 827 58 54</string>
+    <string name="zacheta_website">https://zacheta.art.pl/en</string>
+
+    <string name="national_name">National Museum in Warsaw</string>
+    <string name="national_info">The National Museum in Warsaw was originally founded in 1862 as the
+        Museum of Fine Arts and is currently one of the oldest art museums in the country. After Poland
+        regained its independence in 1918, the National Museum was ascribed a prominent role in the plans
+        for the new state and its capital city of Warsaw, and the Modernist building in which it currently
+        resides was erected in 1927–1938. </string>
+     <string name="national_price">$$$</string>
+    <string name="national_address">Aleje Jerozolimskie 3, Warszawa 00-495, Polska</string>
+    <string name="national_phone">+48 22 629 30 93</string>
+    <string name="national_website">http://www.mnw.art.pl/en</string>
+
+    <string name="polin_name">Museum of the History of Polish Jews</string>
+    <string name="polin_info">The idea to create a Museum of the History of Polish Jews emerged at
+        the Association of the Jewish Historical Institute. This idea soon secured support both in Poland and abroad.</string>
+     <string name="polin_price">$$</string>
+    <string name="polin_address">ul. Mordechaja Anielewicza 6, Warszawa 00-157, Polska</string>
+    <string name="polin_phone">+48 22 471 03 01</string>
+    <string name="polin_website">http://www.polin.pl/en</string>
+
+    <!-- Tourist attractions -->
+    <string name="lazienki_name">Łazienki</string>
+    <string name="lazienki_info">The Royal Łazienki was King Stanisław August’s summer residence,
+        in which a classicist architecture is harmoniously blended with its natural surroundings
+        featuring fabulous gardens.</string>
+     <string name="lazienki_price">$</string>
+    <string name="lazienki_address">Aleje Ujazdowskie, Warszawa 99-200, Polska</string>
+    <string name="lazienki_phone">+48 22 506 00 28</string>
+    <string name="lazienki_website">https://www.lazienki-krolewskie.pl/en</string>
+
+    <string name="staremiasto_name">Old Town</string>
+    <string name="staremiasto_info">During the Warsaw Uprising in August 1944, more than 85%
+        of Warsaw\'s historic centre was destroyed by Nazi troops. After the war, a
+        five-year reconstruction campaign by its citizens resulted in today\'s meticulous
+        restoration of the Old Town, with its churches, palaces and market-place.
+        It is an outstanding example of a near-total reconstruction of a span of
+        history covering the 13th to the 20th century.</string>
+     <string name="staremiasto_price">$$$</string>
+    <string name="staremiasto_address">Old Town, Warszawa, Polska</string>
+    <string name="staremiasto_phone">+48 22 355 51 70</string>
+    <string name="staremiasto_website">http://whc.unesco.org</string>
+
+    <string name="stadion_name">National Stadium</string>
+    <string name="stadion_info">National Stadium (Polish: Stadion Narodowy)
+        is a retractable roof football stadium located in Warsaw, Poland. It is used mostly for
+        football matches and it is the home stadium of Poland national football team.</string>
+     <string name="stadion_price">$</string>
+    <string name="stadion_address">al. Księcia J. Poniatowskiego 1, Warszawa 03-901, Polska</string>
+    <string name="stadion_phone">+48 22 295 90 00</string>
+    <string name="stadion_website">https://www.pgenarodowy.pl/en</string>
+
+    <string name="church_name">Church of the Holly Cross</string>
+    <string name="church_info">The most popular church near the Old Town. Beautiful history and great icons inside.</string>
+     <string name="church_price">$</string>
+    <string name="church_address">ul. Krakowskie Przedmieście 3, Warszawa 00-047, Polska</string>
+    <string name="church_phone">+48 22 826 89 10</string>
+    <string name="church_website">http://www.swkrzyz.pl/</string>
+
+    <string name="powiazki_name">Powazki Cemetery</string>
+    <string name="powiazki_info"> Historic cemetery located in the Wola district, western part of Warsaw.
+        It is the most famous cemetery in the city, and one of the oldest, having been established in 1790.
+        The necropolis features graves of many illustrious individuals from Polish history, including
+        those interred along the "Avenue of Notables" (Aleja Zasłużonych) created in 1925.
+        It estimated that over 1 million people have been buried at Powązki.</string>
+     <string name="powiazki_price">$</string>
+    <string name="powiazki_address">ul. Powazkowska, Warszawa 99-200, Polska</string>
+    <string name="powiazki_phone">+48 22 838 55 25</string>
+    <string name="powiazki_website">http://www.swkrzyz.pl/</string>
+
+    <!-- Pubs and discos -->
+    <string name="room13_name">Room 13 Club</string>
+     <string name="room13_info">Room 13 is the heart of the legendary club Street Mazowiecka. Perfect location in the center of Warsaw, modern interiors combined with historic architecture and top-class music - all these qualities make Room 13 the best choice on the Warsaw's club map. The club is located in the original 19th century tenement house, located in the very center of Warsaw.</string>
+     <string name="room13_price">$$$</string>
+    <string name="room13_address">ul. Mazowiecka 13, Warszawa 00-052, Polska</string>
+    <string name="room13_phone">+48 732 538 638</string>
+    <string name="room13_website">https://pl.tripadvisor.com/Attraction_Review-g274856-d12342279-Reviews-Room_13_Club-Warsaw_Mazovia_Province_Central_Poland.html</string>
+
+    <string name="smolna_name">Smolna</string>
+     <string name="smolna_info">Club in center of Warsaw. 2 levels of awesome dancefloors and chillout rooms
+     three bars and great, experience bartenders. Electronic music, such as house, tech house,
+     deep house and techno.</string>
+     <string name="smolna_price">$$$</string>
+    <string name="smolna_address">ul. Smolna 38/1, Warszawa 00-375, Polska</string>
+    <string name="smolna_phone">+48 736 668 638</string>
+    <string name="smolna_website">https://pl.tripadvisor.com/Attraction_Review-g274856-d12177270-Reviews-Smolna-Warsaw_Mazovia_Province_Central_Poland.html</string>
+
+    <string name="mirage_name">Mirage Club</string>
+     <string name="mirage_info">One of the newest places in Warsaw club environment. Plenty of special
+     items, such as red carpet and diamond chandelier. </string>
+     <string name="mirage_price">$$</string>
+    <string name="mirage_address">ul. plac Defilad 1, Warszawa 00-110, Polska</string>
+    <string name="mirage_phone">+48 22 620 14 54</string>
+    <string name="mirage_website">https://pl.tripadvisor.com/Attraction_Review-g274856-d7734906-Reviews-Club_Mirage-Warsaw_Mazovia_Province_Central_Poland.html</string>
+
+    <string name="klar_name">Klar Coctail Bar</string>
+     <string name="klar_info">Each day team of bartenders explore available seasonal products to bring the most natural experience of drinking a cocktail or infused vodka. We believe  that limitations coming from working only with natural products brings more creativity than taking the easy way.</string>
+     <string name="klar_price">$</string>
+    <string name="klar_address">ul. Krakowskie Przedmieście 41, Warszawa 00-071, Polska</string>
+    <string name="klar_phone">+48 889 699 499</string>
+    <string name="klar_website">https://pl.tripadvisor.com/Attraction_Review-g274856-d8074428-Reviews-Klar_Cocktail_Bar-Warsaw_Mazovia_Province_Central_Poland.html</string>
+
+    <string name="chmury_name">Chmury Klubokawiarnia</string>
+     <string name="chmury_info">Greta coffee and friendly atmosphere.</string>
+     <string name="chmury_price">$</string>
+    <string name="chmury_address">ul. 11 listopada 22, Warszawa 03-436, Polska</string>
+    <string name="chmury_phone">+48 505 849 386</string>
+    <string name="chmury_website">https://pl.tripadvisor.com/Attraction_Review-g274856-d8433121-Reviews-Chmury_Cafe_Clubhouse-Warsaw_Mazovia_Province_Central_Poland.html</string>
+
+
+
+
+</resources>

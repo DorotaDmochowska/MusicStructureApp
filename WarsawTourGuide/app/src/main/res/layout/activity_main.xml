@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/hotels"
+            style="@style/categories"
+            android:background="@color/hotels"
+            android:text="@string/hotels"/>
+
+        <TextView
+            android:id="@+id/restaurants"
+            style="@style/categories"
+            android:background="@color/restaurants"
+            android:text="@string/restaurants"/>
+
+        <TextView
+            android:id="@+id/museums"
+            style="@style/categories"
+            android:background="@color/museums"
+            android:text="@string/museums"/>
+
+        <TextView
+            android:id="@+id/attractions"
+            style="@style/categories"
+            android:background="@color/attractions"
+            android:text="@string/attraction"/>
+
+        <TextView
+            android:id="@+id/pubs_and_discos"
+            style="@style/categories"
+            android:background="@color/discos"
+            android:text="@string/pubs"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
