@@ -2,52 +2,13 @@ package com.example.android.musicalstructureapp;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.widget.ImageView;
-import android.widget.Toast;
 
 public class PlaylistActivity extends AppCompatActivity {
-
     @Override
-    protected void onCreate(Bundle savedInstanseState) {
-        super.onCreate(savedInstanseState);
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_playlist);
 
-        setContentView(R.layout.playlists);
-
-        ImageView playSong = (ImageView) findViewById(R.id.play);
-        playSong.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(PlaylistActivity.this, "Play song", Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        ImageView stopSong = (ImageView) findViewById(R.id.stop);
-        stopSong.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(PlaylistActivity.this, "Stop song", Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        ImageView nextSong = (ImageView) findViewById(R.id.next);
-        nextSong.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(PlaylistActivity.this, "Next song", Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        ImageView lastSong = (ImageView) findViewById(R.id.prev);
-        lastSong.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(PlaylistActivity.this, "Last song", Toast.LENGTH_SHORT).show();
-            }
-        });
+        getSupportActionBar().setElevation(0);
     }
 }

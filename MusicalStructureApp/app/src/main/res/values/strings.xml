@@ -1,16 +1,56 @@
 <resources>
-    <string name="app_name">Musical Structure App</string>
-
-    <string name="subscription_message">Hit subscription button and enjoy music without limits. Listen your favourite songs and create own playlists!</string>
-
-    <string name="problem">Pro8l3m</string>
-    <string name="pentatonix">Pentatonix</string>
-    <string name="miuosh">Miuosh</string>
-    <string name="deys">Deys</string>
+    <string name="app_name">MusicalStructureApp</string>
 
     <string name="songs">Songs</string>
-    <string name="albums">Albums</string>
     <string name="artists">Artists</string>
-    <string name="playlist">Playlist</string>
-    <string name="subscription">Subscription</string>
+    <string name="playlists">Playlists</string>
+    <string name="albums">Albums</string>
+
+    <string name="addPlaylist">+ Add own playlist</string>
+    <string name="rockPlaylist">Rock Music Playlists</string>
+    <string name="rapPlaylist">Rap Music Playlists</string>
+    <string name="folkPlaylist">Folk Music Playlists</string>
+    <string name="favouritePlaylist">Your favourite Playlists</string>
+
+    <string name="song1_name">Molly</string>
+    <string name="song1_artist">Pro8l3m</string>
+    <string name="song1_album">Pro8l3m</string>
+
+    <string name="song2_name">8 kobiet</string>
+    <string name="song2_artist">Taconafide</string>
+    <string name="song2_album">Soma</string>
+
+    <string name="song3_name">Za Tobą</string>
+    <string name="song3_artist">Miuosh</string>
+    <string name="song3_album">Pan z Katowic</string>
+
+    <string name="song4_name">Biegnij dalej sam</string>
+    <string name="song4_artist">Fisz Emade</string>
+    <string name="song4_album">Drony</string>
+
+    <string name="song5_name">Run to You</string>
+    <string name="song5_artist">Pentatonix</string>
+    <string name="song5_album">Ptx Vol. II</string>
+
+    <string name="song6_name">Trudny wiek</string>
+    <string name="song6_artist">Kortez</string>
+    <string name="song6_album">Dom</string>
+
+    <string name="song7_name">Nothing Else Matters</string>
+    <string name="song7_artist">Tulia</string>
+    <string name="song7_album">Tulia</string>
+
+    <string name="song8_name">Radioactive</string>
+    <string name="song8_artist">Imagine Dragons</string>
+    <string name="song8_album">Evolve</string>
+
+    <string name="song9_name">Ała</string>
+    <string name="song9_artist">Ten Typ Mes</string>
+    <string name="song9_album">Ała</string>
+
+    <string name="song10_name">Pożycz mi płuca</string>
+    <string name="song10_artist">Eldo</string>
+    <string name="song10_album">Zapiski 1001 nocy</string>
+
+
 </resources>

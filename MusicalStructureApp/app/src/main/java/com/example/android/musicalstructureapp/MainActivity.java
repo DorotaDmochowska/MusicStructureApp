@@ -6,66 +6,50 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_main);
 
-        TextView playlist = (TextView) findViewById(R.id.playlist);
+        getSupportActionBar().setElevation(0);
 
-        playlist.setOnClickListener(new View.OnClickListener() {
+        TextView songsTextView = findViewById(R.id.song);
+        songsTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent playlistIntent = new Intent(MainActivity.this, PlaylistActivity.class);
-
-                startActivity(playlistIntent);
+                Intent intent = new Intent(MainActivity.this, SongsActivity.class);
+                startActivity(intent);
             }
         });
 
-        TextView artist = (TextView) findViewById(R.id.artist);
-
-        artist.setOnClickListener(new View.OnClickListener() {
+        TextView playlistTextView = findViewById(R.id.playlist);
+        playlistTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent artistIntend = new Intent(MainActivity.this, ArtistsActivity.class);
-
-                startActivity(artistIntend);
+                Intent intent = new Intent(MainActivity.this, PlaylistActivity.class);
+                startActivity(intent);
             }
         });
 
-        TextView album = (TextView) findViewById(R.id.album);
-
-        album.setOnClickListener(new View.OnClickListener() {
+        TextView albumTextView = findViewById(R.id.album);
+        albumTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent albumIntend = new Intent(MainActivity.this, AlbumActivity.class);
-
-                startActivity(albumIntend);
+                Intent intent = new Intent(MainActivity.this, AlbumActivity.class);
+                startActivity(intent);
             }
         });
 
-        TextView song = (TextView) findViewById(R.id.song);
-
-        song.setOnClickListener(new View.OnClickListener() {
+        TextView artistTextView = findViewById(R.id.artist);
+        artistTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent songIntend = new Intent(MainActivity.this, SongActivity.class);
-
-                startActivity(songIntend);
-            }
-        });
-
-        TextView subscription = (TextView) findViewById(R.id.subscription);
-
-        subscription.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent subscriptionIntent = new Intent(MainActivity.this, SubscriptionActivity.class);
-
-                startActivity(subscriptionIntent);
+                Intent intent = new Intent(MainActivity.this, ArtistActivity.class);
+                startActivity(intent);
             }
         });
     }

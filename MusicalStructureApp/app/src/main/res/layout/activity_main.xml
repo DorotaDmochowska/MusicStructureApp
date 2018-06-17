@@ -6,36 +6,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/background"
     tools:context="com.example.android.musicalstructureapp.MainActivity">
 
-        <TextView
-            android:id="@+id/song"
-            style="@style/MenuStyle"
-            android:background="@color/songs"
-            android:text="Songs"/>
+    <TextView
+        android:id="@+id/song"
+        style="@style/MenuStyle"
+        android:background="@color/songs"
+        android:text="@string/songs"/>
 
-        <TextView
-            android:id="@+id/artist"
-            style="@style/MenuStyle"
-            android:background="@color/artists"
-            android:text="Artists"/>
+    <TextView
+        android:id="@+id/artist"
+        style="@style/MenuStyle"
+        android:background="@color/artists"
+        android:text="@string/artists"/>
 
-        <TextView
-            android:id="@+id/album"
-            style="@style/MenuStyle"
-            android:background="@color/albums"
-            android:text="Albums"/>
+    <TextView
+        android:id="@+id/album"
+        style="@style/MenuStyle"
+        android:background="@color/albums"
+        android:text="@string/albums"/>
 
-        <TextView
-            style="@style/MenuStyle"
-            android:id="@+id/playlist"
-            android:background="@color/playlists"
-            android:text="Playlists"/>
+    <TextView
+        style="@style/MenuStyle"
+        android:id="@+id/playlist"
+        android:background="@color/playlists"
+        android:text="@string/playlists"/>
 
-        <TextView
-            android:id="@+id/subscription"
-            style="@style/MenuStyle"
-            android:background="@color/subscription"
-            android:text="Subscription"/>
-
-    </LinearLayout>
+</LinearLayout>

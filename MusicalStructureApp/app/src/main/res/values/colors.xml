@@ -4,9 +4,10 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <color name="songs">#ffdfba</color>
-    <color name="artists">#ffffba</color>
-    <color name="albums">#baffc9</color>
-    <color name="playlists">#a7cae5</color>
-    <color name="subscription">#bae1ff</color>
+    <color name="background">#fffb96</color>
+
+    <color name="songs">#ff71ce</color>
+    <color name="playlists">#01cdfe</color>
+    <color name="albums">#05ffa1</color>
+    <color name="artists">#b967ff</color>
 </resources>
