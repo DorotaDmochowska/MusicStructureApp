@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/grid_item_album_cover"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/album_placeholder"/>
+
+    <TextView
+        android:id="@+id/grid_item_album_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:paddingTop="4dp"
+        android:textColor="@color/songs"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:text="Molly"/>
+
+    <TextView
+        android:id="@+id/grid_item_artist_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/songs"
+        android:textSize="14sp"
+        tools:text="Pro8l3m"/>
+</LinearLayout>
