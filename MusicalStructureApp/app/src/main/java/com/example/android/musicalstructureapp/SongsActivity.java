@@ -64,6 +64,9 @@ public class SongsActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * {@link MainActivity}
+     */
     @Override
     public void onBackPressed() {
         Intent intent = new Intent(SongsActivity.this, MainActivity.class);
