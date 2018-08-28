@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background</item>
+    </style>
+
+    <style name="TextViewTitle">
+        <item name="android:maxLines">2</item>
+        <item name="android:textSize">@dimen/dimen_title_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="TextViewWriter">
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/dimen_writer_size</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="TextViewSection">
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/dimen_section_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="textViewDate">
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/dimen_date_size</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>
